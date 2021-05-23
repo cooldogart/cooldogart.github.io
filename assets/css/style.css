@@ -8,9 +8,6 @@
   display:none;
 }
 
-
-
-
 .container.gallery-container {
   background-color: #fff;
   color: #35373a;
@@ -429,7 +426,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  display: flex;
+  width: 100vw;
   height: 100vh;
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
